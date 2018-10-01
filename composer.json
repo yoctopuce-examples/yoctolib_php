@@ -1,7 +1,25 @@
 {
-  "name":"yoctopuce/yoctolib_php",
-  "description":"Libraries for connecting with Yoctopuce components via a running VirtualHub.",
-  "license":"Yoctopuce-License",
-  "type":"library",
-  "homepage":"http://www.yoctopuce.com/"
+  "name": "yoctopuce/yoctolib_php",
+  "description": "Libraries for connecting with Yoctopuce components via a running VirtualHub.",
+  "license": "Yoctopuce-License",
+  "type": "library",
+  "authors": [
+    {
+      "name": "Yoctopuce",
+      "email": "dev@yoctopuce.com",
+      "homepage": "https://www.yoctopuce.com/",
+      "role": "Developer"
+    }
+  ],
+  "support": {
+    "email": "support@yoctopuce.com",
+    "source": "http://github.com/yoctopuce/yoctolib_php",
+    "docs": "https://www.yoctopuce.com/EN/doc/reference/yoctolib-php-EN.pdf"
+  },
+  "homepage": "https://www.yoctopuce.com/",
+  "autoload": {
+    "classmap": [
+      "Sources/"
+    ]
+  }
 }
